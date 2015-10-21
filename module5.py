@@ -1,4 +1,10 @@
-# Comments go here
+##############################################
+# File Name: module5.py
+# Version: 1.0
+# Team No.: 20
+# Team Name:
+# Date: 22 Oct 15
+##############################################
 
 import RPi.GPIO as GPIO
 import time
