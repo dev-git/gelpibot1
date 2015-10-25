@@ -27,4 +27,4 @@ GPIO.output(7, False)
 
 GPIO.cleanup()
    
-print "\n End of program"
+print "\nEnd of program"
