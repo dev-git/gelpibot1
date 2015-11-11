@@ -22,7 +22,7 @@ def forward(interval):
       print 'forward'
       GPIO.output(11, True)
       GPIO.output(13, True)
-      time.sleep(1)
+      time.sleep(interval)
       GPIO.output(11, False)
       GPIO.output(13, False)
    
