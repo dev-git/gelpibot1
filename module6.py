@@ -18,10 +18,12 @@ GPIO.setup(11, GPIO.OUT)
 GPIO.setup(13, GPIO.OUT)
 GPIO.setup(15, GPIO.OUT)
 
+interval = 2
+
 print 'forward'
 GPIO.output(11, True)
 GPIO.output(13, True)
-time.sleep(1)
+time.sleep(interval)
 GPIO.output(11, False)
 GPIO.output(13, False)
    
