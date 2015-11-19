@@ -9,7 +9,7 @@
 import RPi.GPIO as GPIO
 import time
 
-print 'Press CTRL+C to exit the program'
+print 'Press CTRL+C to exit the program....'
 
 GPIO.setmode(GPIO.BOARD)
 
