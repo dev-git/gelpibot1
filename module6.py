@@ -20,14 +20,14 @@ GPIO.setup(15, GPIO.OUT)
 
 interval = 1
 
-print 'forward'
+print 'left'
 GPIO.output(11, True)
 GPIO.output(13, True)
 time.sleep(interval)
 GPIO.output(11, False)
 GPIO.output(13, False)
    
-print 'back'
+print 'left'
 GPIO.output(7, True)
 GPIO.output(15, True)
 time.sleep(interval)
@@ -39,7 +39,7 @@ GPIO.output(13, True)
 time.sleep(interval)
 GPIO.output(13, False)
       
-print 'right'
+print 'left'
 GPIO.output(11, True)
 time.sleep(interval)
 GPIO.output(11, False)
