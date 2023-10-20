@@ -1,9 +1,9 @@
 ##############################################
 # File Name: module6.py
-# Version: 1.0
-# Team No.: 20
+# Version: 1.1
+# Team No.: 
 # Team Name:
-# Date: 11 Nov 15
+# Date: 20 Oct 23
 ##############################################
 
 import RPi.GPIO as GPIO
