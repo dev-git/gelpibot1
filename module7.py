@@ -1,15 +1,15 @@
 ##############################################
 # File Name: module7.py
-# Version: 1.0
-# Team No.: 20
+# Version: 1.1
+# Team No.: 
 # Team Name:
-# Date: 11 Nov 15
+# Date: 20 Oct 23
 ##############################################
 
 import RPi.GPIO as GPIO
 import time
 
-print 'Programming the PiBot...'
+print('Programming the PiBot...')
 
 GPIO.setmode(GPIO.BOARD)
 
@@ -19,7 +19,7 @@ GPIO.setup(13, GPIO.OUT)
 GPIO.setup(15, GPIO.OUT)
 
 def forward(interval):
-      print 'forward'
+      print('forward')
       GPIO.output(11, True)
       GPIO.output(13, True)
       time.sleep(interval)
@@ -27,7 +27,7 @@ def forward(interval):
       GPIO.output(13, False)
    
 def back(interval):
-      print 'back'
+      print('back')
       GPIO.output(7, True)
       GPIO.output(15, True)
       time.sleep(interval)
@@ -35,13 +35,13 @@ def back(interval):
       GPIO.output(15, False)
 
 def left(interval):
-      print 'left'
+      print('left')
       GPIO.output(13, True)
       time.sleep(interval)
       GPIO.output(13, False)
       
 def right(interval):
-      print 'right'
+      print('right')
       GPIO.output(11, True)
       time.sleep(interval)
       GPIO.output(11, False)
@@ -54,4 +54,4 @@ back(3)
 
 GPIO.cleanup()
    
-print "\nPiBot is going offline..."
+print("\nPiBot is going offline...")
